@@ -1,0 +1,67 @@
+
+    #one, #two {
+        width: 7cm;
+        height: 1cm;
+        position: absolute;
+        animation-duration: 3s;
+        
+        animation-timing-function: ease;
+    }
+    
+    #one {
+        background-color: rgb(255, 0, 170);
+        top: 0vh;
+        left: 0vw;
+        animation-name: new1;
+    }
+    
+    #two {
+        background-color: rgb(30, 0, 255);
+        top: 78vh;
+        left: 82vw;
+        animation-name: new;
+    }
+    
+    @keyframes new {
+        100% {
+            top: 40vh;
+            left: 40vw;
+        }
+    }
+    
+    @keyframes new1 {
+        100% {
+            top: 30vh;
+            left: 40vw;
+        }
+    }
+    #btn{
+        position: absolute;
+       font-size:30px;
+       padding: 10px;
+       width: 105px;
+       padding: 2px;
+       border-radius: 20px;
+       color: aliceblue;
+       background: #002aff;
+       cursor: pointer;
+       transition: 150ms ease;
+       top: 50vh;
+       left: 50vw;
+    }
+    #btn:hover   {
+        position: absolute;
+       font-size:30px;
+       padding: 10px;
+       width: 105px;
+       padding: 2px;
+       border-radius: 20px;
+       color: aliceblue;
+       background: #8000ff;
+       cursor: pointer;
+       transition: 150ms ease;
+       scale: 1.5;
+       top: 50vh;
+       left: 50vw;
+    }
+    
